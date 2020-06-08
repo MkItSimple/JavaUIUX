@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:popupTheme="@style/AppTheme"
+    android:id="@+id/toolbarCustom">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/pi1" />
+
+    <TextView
+        android:id="@+id/myTitleToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Choreyn anania"
+        android:layout_margin="8dp"
+        android:textColor="#fff"/>
+
+</Toolbar>
