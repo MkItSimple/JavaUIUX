@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JavaUIUX</string>
+    <string name="open_bottom_sheet">Open Bottom Sheet</string>
 </resources>
